@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Bootsrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="./images/agricultura.png" width="50px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Destaques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Preços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Desativado</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Link dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Ação</a>
+                            <a class="dropdown-item" href="#">Outra ação</a>
+                            <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        </div>
+                    </li>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                    </form>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="d-flex justify-content-center mt-5">
+        <h1>Olá, pessoal!</h1>
+        <button type="button" class="btn btn-danger">Clicar</button>
+    </div>
+
+  <!--   <div class="container">
+        <div class="row gx-5 mt-5">
+            <div class="col-4">
+                <div style="border: 1px solid #000";>
+                    <h1>Primeira coluna</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor possimus animi laudantium voluptatem!</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div style="border: 1px solid #000";>
+                    <h1>Segunda coluna</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor possimus animi laudantium voluptatem!</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div style="border: 1px solid #000";>
+                    <h1>Terceira coluna</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor possimus animi laudantium voluptatem!</p>
+                </div>
+            </div>
+        </div>      
+    </div> -->
+
+<!--     <div class="conteiner-fluid">
+        <div class="row">
+            <img src="https://images.pexels.com/photos/1408221/pexels-photo-1408221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        </div>
+    </div> -->
+
+    <div class="conteiner">
+        <div class="row gx-5 mt-5">
+            <div class="col-4">
+                <div class="border border-dark rounded text-center p-3">
+                    <h1>Primeira coluna</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                    <button type="button" class="btn btn-warning">Cloque aqui</button>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <div class="border border-dark rounded text-center p-3">
+                    <h1>Segunda coluna</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius iste voluptatibus provident, labore eaque odio sint rerum, voluptates aliquam distinctio optio aspernatur ipsa hic repudiandae dolor est.</p>
+                    <button type="button" class="btn btn-warning">Cloque aqui</button>
+                </div>
+            </div>
+            <div class="col-4 ">
+                <div class="border border-dark rounded text-center p-3">
+                    <h1>Terceira coluna</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius iste voluptatibus provident, labore eaque odio sint rerum, voluptates aliquam distinctio optio aspernatur ipsa hic repudiandae dolor est. Maxime, sapiente eum.</p>
+                    <button type="button" class="btn btn-warning">Cloque aqui</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
