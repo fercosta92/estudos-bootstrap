@@ -1,0 +1,29 @@
+.btn {
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: coral;
+}
+
+.btn-primary:hover {
+    background-color: darksalmon;
+}
+
+.btn-secondary {
+    background-color: cornflowerblue;
+}
+
+.btn-secondary:hover {
+    background-color: darkcyan;
+}
+
+.btn-info {
+    background-color: crimson;
+}
+
+.btn-info:hover {
+    background-color: deeppink;
+}
