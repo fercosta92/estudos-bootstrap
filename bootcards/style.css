@@ -1,0 +1,15 @@
+.card:hover {
+    border-right: 2px solid orangered;
+    border-left: 2px solid orangered;
+}
+
+.btn {
+    background-color: coral;
+    border: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: orangered;
+    color: black;
+}

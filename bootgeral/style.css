@@ -22,8 +22,10 @@
 
 .btn-info {
     background-color: crimson;
+    color: white;
 }
 
 .btn-info:hover {
     background-color: deeppink;
+    color: white;
 }
